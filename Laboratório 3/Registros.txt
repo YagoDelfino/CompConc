@@ -1,0 +1,61 @@
+========SEQUENCIAL=========
+
+Sequencial de dimensão 100000
+O maior valor do vetor é: 99999
+O menor valor do vetor é: 0
+Tempo de execução Sequencial: 0.001001
+
+Sequencial de dimensão 10000000
+O maior valor do vetor é: 9999999
+O menor valor do vetor é: 0
+Tempo de execução Sequencial: 0.108696
+
+Sequencial de dimensão 1000000000
+O maior valor do vetor é: 999999999
+O menor valor do vetor é: 0
+Tempo de execução Sequencial: 11.723180
+
+========CONCORRENTE=========
+
+Começado com 2 thread(s) e dimensão 1000000000
+O maior valor do vetor é: 999999999
+O menor valor do vetor é: 0
+Tempo de execução Concorrente: 5.857135
+
+Começado com 4 thread(s) e dimensão 1000000000
+O maior valor do vetor é: 999999999
+O menor valor do vetor é: 0
+Tempo de execução Concorrente: 3.171933
+
+Começado com 2 thread(s) e dimensão 100000
+O maior valor do vetor é: 99999
+O menor valor do vetor é: 0
+Tempo de execução Concorrente: 0.001066
+
+Começado com 4 thread(s) e dimensão 100000
+O maior valor do vetor é: 99999
+O menor valor do vetor é: 0
+Tempo de execução Concorrente: 0.000681
+
+Começado com 2 thread(s) e dimensão 10000000
+O maior valor do vetor é: 9999999
+O menor valor do vetor é: 0
+Tempo de execução Concorrente: 0.057269
+
+Começado com 4 thread(s) e dimensão 10000000
+O maior valor do vetor é: 9999999
+O menor valor do vetor é: 0
+Tempo de execução Concorrente: 0.029232
+
+========GANHO DE DESEMPENHO=========
+
+2 thread(s) e dimensão 100000 — 0.93902439024
+4 thread(s) e dimensão 100000 — 1.46989720999
+
+2 thread(s) e dimensão 10000000 — 1.89799018666
+4 thread(s) e dimensão 10000000 — 3.7183908046
+
+2 thread(s) e dimensão 1000000000 — 2.00152122155
+4 thread(s) e dimensão 1000000000 — 3.69591034867
+
+
